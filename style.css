@@ -1,0 +1,249 @@
+body {
+    width: 100%;
+}
+
+#header {
+    height: min-content;
+    background-color:#6B3CC9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 80px 26px 80px;
+    position: relative;
+}
+
+
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #FFFFFF;
+}
+
+.hamburger {
+    display: none;
+}
+
+#hero {
+    position: relative;
+}
+
+#heroImage img{
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    flex: 1;
+}
+
+.parentHero {
+    display: inline-flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.heroBox {
+    height: min-content;
+    width: 600px;
+    padding: 10px;
+    background-image: linear-gradient(to left, #1CBDDD, #4DCA79);
+    bottom: 40px;
+    left: 60px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="heroBox" ]{
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        position: relative;
+    }
+    #navbar .nav{
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        font-size: 32px!important;
+    }
+    .allFrames {
+        text-align: center;
+    }
+}
+
+.heroBox p {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 48px;
+    position: relative;
+    margin: 20px 10px 20px 20px;
+}
+
+.heroBox button {
+    padding: 12px 20px 12px 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    gap: 8px;
+    background-color: #F28D35;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+#frame {
+    position: relative;
+    top: 100%;
+    left: 0;
+}
+
+#frame .allFrames{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#frame button {
+    padding: 12px 20px 12px 20px;
+    border-radius: 4px;
+    gap: 8px;
+    background-color: #F28D35;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+#frame1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    height: min-content;
+
+}
+
+#frame1 div {
+    width: 542px;
+    height: min-content;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#frame2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+#frame2 div {
+    width: 542px;
+    height: min-content;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#frame span {
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    font-family: Poppins;
+    letter-spacing: 0.4px;
+    color: #6B3CC9;
+}
+
+#frame p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer {
+    position: relative;
+    background-color:#6B3CC9;
+}
+
+#footerTop {
+    height: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    padding: 40px 80px 22px 80px;
+}
+
+#footerAll {
+    display: flex;
+}
+#vision {
+    width: 413px;
+}
+
+#vision p  {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    height: 57px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerDetails {
+    list-style: none;
+    color: #FFFFFF;
+    width: 197px;
+    height: min-content;
+    padding-left: 0px;
+}
+
+.footerDetails li {
+    font-size: 14px;
+    font-weight: 500px;
+    margin: 12px 0;
+    line-height: 17px;
+}
+
+.footerDetails h4 {
+    font-size: 21px;
+}
+
+hr {
+    border-top: #FFFFFF;
+    border-left: #FFFFFF;
+    border-right: #FFFFFF;
+    height: 4px;
+    width: 630px;
+}
+
+#footerBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #FFFFFF;
+}
+
